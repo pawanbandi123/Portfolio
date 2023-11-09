@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    overflow: hidden;
+}
+body{
+    background-color: #1e2733;
+    color: white;
+    overflow: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 400;
+    margin-left: 3.5rem;
+    transition: 0.3s;
+}
+.navbar a:hover, 
+.navbar a.active {
+    color: rgb(3, 209, 255);
+}
+ section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+ }
+.home{
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    
+}
+.home-content{
+    max-width: 60rem;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.home-content h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(3, 209, 255);
+}
+.home-content p {
+    font-size: 15px;
+    padding: 30px 20px;
+}
+
+.btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 70px;
+}
+
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background-color:transparent ;
+    border: 3px solid rgb(3, 209, 255);
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(3, 209, 255);
+}
+
+.home-sci{
+    position: absolute;
+    bottom: 15px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a {
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 1px solid rgb(3, 209, 255) ;
+border-radius: 8px;
+font-size: 20px;
+color: #03d1ff;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+}
+.about-content{
+    font-size: 15px;
+}
+.about-content h3 {
+    margin-bottom: 20px;
+}
+.heading {
+    font-size: 30px;
+    margin-bottom: 200px;
+    color: #03d1ff;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  .heading-skills{
+    margin-bottom: 20px;
+    color: #03d1ff;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .project a{
+    color:#03d1ff;
+  }
+.contact{
+    font-size: larger;
+}
+  .contact h2{
+    color: #03d1ff;
+
+  }
+.contact a{
+    color: aquamarine;
+}
+
